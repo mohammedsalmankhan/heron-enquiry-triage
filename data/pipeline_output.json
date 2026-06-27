@@ -1,0 +1,352 @@
+[
+  {
+    "enquiry_id": "ENQ-001",
+    "raw_text": "Hi, I'm looking for a quote on 3 sash windows for my cottage. They need to be roughly 1.2m wide by 1.5m tall, in oak if possible. Would need them installed by the end of August as we're doing a renovation. Thanks, Mary",
+    "extracted": {
+      "enquiry_id": "ENQ-001",
+      "product_types": [
+        "Sash Window"
+      ],
+      "quantity": 3,
+      "dimensions_mm": [],
+      "material": "Oak",
+      "urgency": "Standard / Unclassified",
+      "timeframe_mentions": [
+        "by the end of august"
+      ],
+      "is_commercial": false,
+      "raw_excerpt": "Hi, I'm looking for a quote on 3 sash windows for my cottage. They need to be roughly 1.2m wide by 1.5m tall, in oak if possible. Would need them installed by t...",
+      "extraction_confidence": "Medium",
+      "notes": [
+        "Missing: dimensions \u2014 recommend manual follow-up."
+      ]
+    },
+    "price_estimate": {
+      "enquiry_id": "ENQ-001",
+      "estimate_low_gbp": null,
+      "estimate_high_gbp": null,
+      "basis": "Insufficient data for estimate",
+      "confidence": "None",
+      "flags": [
+        "Missing dimensions or product type \u2014 manual quote required"
+      ]
+    }
+  },
+  {
+    "enquiry_id": "ENQ-002",
+    "raw_text": "Good morning, we are a building contractor working on a new-build site in Coleraine and need pricing for 14 casement windows, all the same size (900mm x 1200mm), softwood, painted white. This is for a residential development so we'd need a trade quote. Timeline is flexible but ideally materials on site within 6 weeks. Regards, J. Hamilton, Hamilton Construction",
+    "extracted": {
+      "enquiry_id": "ENQ-002",
+      "product_types": [
+        "Casement Window"
+      ],
+      "quantity": 14,
+      "dimensions_mm": [
+        {
+          "width_mm": 900.0,
+          "height_mm": 1200.0,
+          "source_text": "900mm x 1200mm"
+        }
+      ],
+      "material": "Softwood",
+      "urgency": "Low / Exploratory",
+      "timeframe_mentions": [
+        "within 6 week",
+        "6 week"
+      ],
+      "is_commercial": true,
+      "raw_excerpt": "Good morning, we are a building contractor working on a new-build site in Coleraine and need pricing for 14 casement windows, all the same size (900mm x 1200mm)...",
+      "extraction_confidence": "High",
+      "notes": []
+    },
+    "price_estimate": {
+      "enquiry_id": "ENQ-002",
+      "estimate_low_gbp": 3670.0,
+      "estimate_high_gbp": 4690.0,
+      "basis": "14 x Casement Window (Softwood), 1.08 sqm total, base rate \u00a3310/sqm",
+      "confidence": "High",
+      "flags": [
+        "Commercial/trade discount applied \u2014 confirm account status",
+        "Volume discount applied for quantity >= 5"
+      ]
+    }
+  },
+  {
+    "enquiry_id": "ENQ-003",
+    "raw_text": "Hello, urgent enquiry - we had storm damage to a fire door at our care home and need a replacement fire door fitted ASAP, this week if at all possible. Door is a standard internal size, 762mm x 1981mm. Please call me back today on 07911 222333. Sandra, Riverside Care",
+    "extracted": {
+      "enquiry_id": "ENQ-003",
+      "product_types": [
+        "Fire Door"
+      ],
+      "quantity": null,
+      "dimensions_mm": [
+        {
+          "width_mm": 762.0,
+          "height_mm": 1981.0,
+          "source_text": "762mm x 1981mm"
+        }
+      ],
+      "material": null,
+      "urgency": "Urgent",
+      "timeframe_mentions": [],
+      "is_commercial": true,
+      "raw_excerpt": "Hello, urgent enquiry - we had storm damage to a fire door at our care home and need a replacement fire door fitted ASAP, this week if at all possible. Door is ...",
+      "extraction_confidence": "Medium",
+      "notes": [
+        "Missing: material \u2014 recommend manual follow-up."
+      ]
+    },
+    "price_estimate": {
+      "enquiry_id": "ENQ-003",
+      "estimate_low_gbp": 670.0,
+      "estimate_high_gbp": 860.0,
+      "basis": "1 x Fire Door (Timber (unspecified species)), 1.51 sqm total, base rate \u00a3450/sqm",
+      "confidence": "Medium",
+      "flags": [
+        "Urgency surcharge applied (+20%) \u2014 confirm before quoting",
+        "Commercial/trade discount applied \u2014 confirm account status"
+      ]
+    }
+  },
+  {
+    "enquiry_id": "ENQ-004",
+    "raw_text": "Hi there, just wondering if you do sliding sash windows and roughly what the cost would be for a pair, around 1.4 x 1.8m each, timber, traditional style for a listed building. No rush on timing, just gathering quotes at this stage. Thank you, Peter",
+    "extracted": {
+      "enquiry_id": "ENQ-004",
+      "product_types": [
+        "Sash Window"
+      ],
+      "quantity": null,
+      "dimensions_mm": [],
+      "material": "Timber (unspecified species)",
+      "urgency": "Low / Exploratory",
+      "timeframe_mentions": [],
+      "is_commercial": false,
+      "raw_excerpt": "Hi there, just wondering if you do sliding sash windows and roughly what the cost would be for a pair, around 1.4 x 1.8m each, timber, traditional style for a l...",
+      "extraction_confidence": "Medium",
+      "notes": [
+        "Missing: dimensions \u2014 recommend manual follow-up."
+      ]
+    },
+    "price_estimate": {
+      "enquiry_id": "ENQ-004",
+      "estimate_low_gbp": null,
+      "estimate_high_gbp": null,
+      "basis": "Insufficient data for estimate",
+      "confidence": "None",
+      "flags": [
+        "Missing dimensions or product type \u2014 manual quote required"
+      ]
+    }
+  },
+  {
+    "enquiry_id": "ENQ-005",
+    "raw_text": "Hi, can you give me a price for a single oak front door, 838mm x 1981mm, with two side panels of glazing? We are hoping to have this installed before Christmas as a gift to ourselves after a long renovation! No exact deadline but sooner is better. Many thanks, Aoife",
+    "extracted": {
+      "enquiry_id": "ENQ-005",
+      "product_types": [
+        "Front Door",
+        "Side Panel (Glazed)"
+      ],
+      "quantity": null,
+      "dimensions_mm": [
+        {
+          "width_mm": 838.0,
+          "height_mm": 1981.0,
+          "source_text": "838mm x 1981mm"
+        }
+      ],
+      "material": "Oak",
+      "urgency": "Standard / Unclassified",
+      "timeframe_mentions": [
+        "before christmas"
+      ],
+      "is_commercial": false,
+      "raw_excerpt": "Hi, can you give me a price for a single oak front door, 838mm x 1981mm, with two side panels of glazing? We are hoping to have this installed before Christmas ...",
+      "extraction_confidence": "High",
+      "notes": []
+    },
+    "price_estimate": {
+      "enquiry_id": "ENQ-005",
+      "estimate_low_gbp": 1120.0,
+      "estimate_high_gbp": 1430.0,
+      "basis": "1 x Front Door (Oak), 1.66 sqm total, base rate \u00a3750/sqm",
+      "confidence": "High",
+      "flags": []
+    }
+  },
+  {
+    "enquiry_id": "ENQ-006",
+    "raw_text": "To whom it may concern, we require 6 tilt and turn windows for a commercial office fit-out, dimensions 1000mm x 1400mm each, aluminium-clad timber if available, RAL 7016 finish. Project completion is fixed for 10 weeks from order, this is a hard deadline tied to a lease handover. Please advise lead times. Best, David, Northway Property Group",
+    "extracted": {
+      "enquiry_id": "ENQ-006",
+      "product_types": [
+        "Tilt and Turn Window"
+      ],
+      "quantity": 6,
+      "dimensions_mm": [
+        {
+          "width_mm": 1000.0,
+          "height_mm": 1400.0,
+          "source_text": "1000mm x 1400mm"
+        }
+      ],
+      "material": "Aluminium-clad Timber",
+      "urgency": "Standard / Unclassified",
+      "timeframe_mentions": [
+        "10 week"
+      ],
+      "is_commercial": true,
+      "raw_excerpt": "To whom it may concern, we require 6 tilt and turn windows for a commercial office fit-out, dimensions 1000mm x 1400mm each, aluminium-clad timber if available,...",
+      "extraction_confidence": "High",
+      "notes": []
+    },
+    "price_estimate": {
+      "enquiry_id": "ENQ-006",
+      "estimate_low_gbp": 3810.0,
+      "estimate_high_gbp": 4870.0,
+      "basis": "6 x Tilt and Turn Window (Aluminium-clad Timber), 1.40 sqm total, base rate \u00a3580/sqm",
+      "confidence": "High",
+      "flags": [
+        "Commercial/trade discount applied \u2014 confirm account status",
+        "Volume discount applied for quantity >= 5"
+      ]
+    }
+  },
+  {
+    "enquiry_id": "ENQ-007",
+    "raw_text": "Hello, I'm renovating my kitchen and would like 2 french doors leading out to the garden, each panel about 0.9m x 2.1m, oak, double glazed. Not in a rush, maybe install in spring next year. What sort of price range am I looking at? Thanks, Tom",
+    "extracted": {
+      "enquiry_id": "ENQ-007",
+      "product_types": [
+        "French Door"
+      ],
+      "quantity": 2,
+      "dimensions_mm": [
+        {
+          "width_mm": 900.0,
+          "height_mm": 2100.0,
+          "source_text": "0.9m x 2.1m"
+        }
+      ],
+      "material": "Oak",
+      "urgency": "Standard / Unclassified",
+      "timeframe_mentions": [],
+      "is_commercial": false,
+      "raw_excerpt": "Hello, I'm renovating my kitchen and would like 2 french doors leading out to the garden, each panel about 0.9m x 2.1m, oak, double glazed. Not in a rush, maybe...",
+      "extraction_confidence": "High",
+      "notes": []
+    },
+    "price_estimate": {
+      "enquiry_id": "ENQ-007",
+      "estimate_low_gbp": 2350.0,
+      "estimate_high_gbp": 3000.0,
+      "basis": "2 x French Door (Oak), 1.89 sqm total, base rate \u00a3690/sqm",
+      "confidence": "High",
+      "flags": []
+    }
+  },
+  {
+    "enquiry_id": "ENQ-008",
+    "raw_text": "Hi, this is urgent - our shopfront fire door failed inspection and we have a re-inspection booked for Friday. Need a compliant fire door, standard commercial size 900mm x 2100mm, fitted before then if at all possible. Please call ASAP, this is time critical for our business licence. Liam, Magherafelt Newsagents",
+    "extracted": {
+      "enquiry_id": "ENQ-008",
+      "product_types": [
+        "Fire Door"
+      ],
+      "quantity": null,
+      "dimensions_mm": [
+        {
+          "width_mm": 900.0,
+          "height_mm": 2100.0,
+          "source_text": "900mm x 2100mm"
+        }
+      ],
+      "material": null,
+      "urgency": "Urgent",
+      "timeframe_mentions": [],
+      "is_commercial": true,
+      "raw_excerpt": "Hi, this is urgent - our shopfront fire door failed inspection and we have a re-inspection booked for Friday. Need a compliant fire door, standard commercial si...",
+      "extraction_confidence": "Medium",
+      "notes": [
+        "Missing: material \u2014 recommend manual follow-up."
+      ]
+    },
+    "price_estimate": {
+      "enquiry_id": "ENQ-008",
+      "estimate_low_gbp": 850.0,
+      "estimate_high_gbp": 1080.0,
+      "basis": "1 x Fire Door (Timber (unspecified species)), 1.89 sqm total, base rate \u00a3450/sqm",
+      "confidence": "Medium",
+      "flags": [
+        "Urgency surcharge applied (+20%) \u2014 confirm before quoting",
+        "Commercial/trade discount applied \u2014 confirm account status"
+      ]
+    }
+  },
+  {
+    "enquiry_id": "ENQ-009",
+    "raw_text": "Good afternoon, just enquiring about reversible windows for a school refurbishment project, we'd need approximately 22 units, mixed sizes, will send a schedule if you can do a budget estimate first. Project is in early planning, no firm dates yet but likely next academic year. Kind regards, Procurement Team, Glenview Primary School",
+    "extracted": {
+      "enquiry_id": "ENQ-009",
+      "product_types": [
+        "Reversible Window"
+      ],
+      "quantity": 22,
+      "dimensions_mm": [],
+      "material": null,
+      "urgency": "Low / Exploratory",
+      "timeframe_mentions": [],
+      "is_commercial": true,
+      "raw_excerpt": "Good afternoon, just enquiring about reversible windows for a school refurbishment project, we'd need approximately 22 units, mixed sizes, will send a schedule ...",
+      "extraction_confidence": "Low",
+      "notes": [
+        "Missing: dimensions, material \u2014 high manual review priority."
+      ]
+    },
+    "price_estimate": {
+      "enquiry_id": "ENQ-009",
+      "estimate_low_gbp": null,
+      "estimate_high_gbp": null,
+      "basis": "Insufficient data for estimate",
+      "confidence": "None",
+      "flags": [
+        "Missing dimensions or product type \u2014 manual quote required"
+      ]
+    }
+  },
+  {
+    "enquiry_id": "ENQ-010",
+    "raw_text": "Hi, looking for a like for like replacement of one casement window that got smashed by accident, 800mm x 1000mm, softwood painted, nothing fancy. Would appreciate this done within the next two weeks if possible as it's letting the weather in. Karen",
+    "extracted": {
+      "enquiry_id": "ENQ-010",
+      "product_types": [
+        "Casement Window"
+      ],
+      "quantity": null,
+      "dimensions_mm": [
+        {
+          "width_mm": 800.0,
+          "height_mm": 1000.0,
+          "source_text": "800mm x 1000mm"
+        }
+      ],
+      "material": "Softwood",
+      "urgency": "Standard / Unclassified",
+      "timeframe_mentions": [],
+      "is_commercial": false,
+      "raw_excerpt": "Hi, looking for a like for like replacement of one casement window that got smashed by accident, 800mm x 1000mm, softwood painted, nothing fancy. Would apprecia...",
+      "extraction_confidence": "High",
+      "notes": []
+    },
+    "price_estimate": {
+      "enquiry_id": "ENQ-010",
+      "estimate_low_gbp": 220.0,
+      "estimate_high_gbp": 290.0,
+      "basis": "1 x Casement Window (Softwood), 0.80 sqm total, base rate \u00a3310/sqm",
+      "confidence": "High",
+      "flags": []
+    }
+  }
+]
