@@ -114,3 +114,10 @@ enquiry_triage/
 │   └── test_pipeline.py            # 20 pytest unit tests
 └── README.md
 ```
+## About
+
+Built by Mohammed Salman Khan, MSc Artificial Intelligence at Ulster University.
+
+Email: mohammedsalmankhans636@gmail.com
+LinkedIn: https://www.linkedin.com/in/mohammedsalmankhans/
+GitHub: https://github.com/mohammedsalmankhan
